@@ -4,6 +4,12 @@ Uses [Pine3D](https://github.com/Xella37/Pine3D) and CC with Plethora to achieve
 
 There is no documentation for this small library. Please look at the examples to figure it out :P
 
+The demos use a combination of the following:
+- GPS (for player location)
+- Block scanner (for info about the world)
+- Entity scanner (for player camera rotation and entities)
+- Overlay glasses (for rendering everything)
+
 # Calibration
 
 The demos use 120 degrees FoV by default. Please run one of the demos and then look a bit sideways from what is rendered, then adjust your own MC FoV to make sure it matches and everything is aligned.
